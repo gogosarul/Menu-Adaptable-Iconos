@@ -1,0 +1,18 @@
+
+Orientación vertical
+@page {size: portrait;}
+
+/*Orientación apaisada
+@page {size: landscape;}*/
+
+body{
+	font-family: verdana;
+}
+
+aside{
+	display: none limportant;
+}
+/*mostrar el vinculo al ver vista previa al imprimir*/
+a:after{
+	content: " (" attr(href) ") ";
+}
